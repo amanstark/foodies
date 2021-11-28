@@ -1,0 +1,20 @@
+SMAP
+orderreceived_jsp.java
+JSP
+*S JSP
+*F
++ 0 orderreceived.jsp
+orderreceived.jsp
+*L
+5,22:45
+27,7:68
+33,12:75
+45,3:88
+47,2:91
+49,7:93,3
+56,2:114
+58,2:117
+59,3:119
+63,3:124
+65,7:127
+*E

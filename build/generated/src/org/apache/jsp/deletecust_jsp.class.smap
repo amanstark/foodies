@@ -1,0 +1,15 @@
+SMAP
+deletecust_jsp.java
+JSP
+*S JSP
+*F
++ 0 deletecust.jsp
+deletecust.jsp
+*L
+5,12:45
+17,18:58
+34,2:76
+36:78,6
+43,3:90
+45,4:93
+*E

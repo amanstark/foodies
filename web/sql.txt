@@ -1,0 +1,76 @@
+create table customer
+(
+user varchar(20),
+email varchar(50),
+name varchar(40),
+phone varchar(20),
+pass varchar(20)
+);
+
+
+create table admin
+(
+adminuser varchar(20),
+pass varchar(20)
+);
+
+create table item
+(
+vid int,
+vname varchar(40),
+vprice int
+);
+
+create table cart
+(
+cuser varchar(20),
+cname varchar(40),
+cprice int,
+cqty int,
+cid varchar(10)
+);
+
+
+alter table cart add column time varchar(20);
+alter table cart add column date varchar(20);
+
+
+
+
+insert into item values(101,'Desi chole',200);
+insert into item values(102,'Paneer',300);
+insert into item values(103,'Veg Kolhapuri',400);
+insert into item values(104,'Veg Korma',350);
+insert into item values(105,'Dum aloo',250);
+insert into item values(106,'Pav Bhaji',150);
+
+insert into item values(201,'Fried Chicken',400);
+insert into item values(202,'Chicken Tikka',350);
+insert into item values(203,'Chicken Biryani',500);
+insert into item values(204,'Mutton Handi',550);
+insert into item values(205,'Chicken Lollipop',400);
+
+insert into item values(301,'Veg Supreme Pizza',500);
+insert into item values(302,'Cheese Pizza',500);
+insert into item values(303,'Ham Pizza',600);
+insert into item values(304,'Chicken Italiano',850);
+insert into item values(305,'Chicken Supreme',900);
+
+
+insert into item values(401,'Pepsi',40);
+insert into item values(402,'Red Bull',120);
+insert into item values(403,'Cold Coffee',80);
+insert into item values(404,'Sprite',50);
+insert into item values(405,'Tuborg',200);
+
+
+
+create table employee
+(
+eid int,
+ename varchar(20),
+designation varchar(30),
+salary varchar(20)
+);
+
+insert into employee values(501,'Raghu','Cook',20000);
